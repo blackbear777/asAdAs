@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tzarrclient",
+  "version": "${version}",
+  "name": "TZARR Client",
+  "description": "TZARR client-side Minecraft project.",
+  "authors": ["TZARR"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.tzarr.client.TzarrClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*"
+  }
+}
